@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edc348">
+  <meta name="description" content="一本持续生长的 AIGC 个人作品集。探索训练营短片、产品创意影像，以及创作途中的想法与蜕变。">
+  <title>产出 · 想法 · 蜕变 / AIGC PORTFOLIO</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="media-ready.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#works">跳到作品</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="作品集首页">COLLecTioN<span>VisuAL <i>001</i></span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#works"><small>01</small> 产出 <span>WORKS</span></a>
+      <a href="#ideas"><small>02</small> 想法 <span>NOTES</span></a>
+      <a href="#growth"><small>03</small> 蜕变 <span>GROWTH</span></a>
+    </nav>
+    <a class="header-arrow" href="#works" aria-label="开始浏览作品">↙</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-topline"><span>AN ONGOING CREATIVE EXPERIMENT</span><span>个人创作档案 / VOL. 01</span></div>
+      <a class="open-me" href="#works" aria-label="打开作品集">
+        <svg viewBox="0 0 190 170" aria-hidden="true"><path d="M165 88C190 18 110-1 68 17 13 41-8 102 18 137c27 36 99 25 125-9l25-25-16-4Z"/><text x="47" y="66" transform="rotate(-10 47 66)">open</text><text class="open-me-big" x="34" y="125" transform="rotate(-7 34 125)">Me!</text></svg>
+      </a>
+      <div class="hero-intro"><span class="little-cross">✳</span><p>让想象发生。<br>让每一次尝试，都留下形状。</p><span class="intro-caption">MADE WITH CURIOSITY & A LITTLE AI.</span></div>
+      <div class="hero-type" aria-hidden="true"><span>DesiGn</span><span>DesiGn</span><span>DesiGn</span></div>
+      <h1 id="hero-title">创作<span>进行时<span class="title-dot">!</span></span></h1>
+      <button class="character" type="button" aria-label="戳一下，给灵感充电">
+        <svg viewBox="0 0 470 540" aria-hidden="true">
+          <g class="character-body">
+            <path class="face" d="M105 226c-17 18-24 44-17 65l10 34 19 4 19 172c3 25 15 34 40 35l127-2 75-15"/>
+            <path class="hair" d="M95 235c-13 25-9 58 17 77 17 12 11-2 7-19-5-22-6-42 5-63 39-22 75-67 96-109-1 43-37 91-57 112 32 9 58-4 88-33 25-26 36-52 45-71-3 29-14 57-27 74 33 3 59-13 71-38 14 14 20 41 14 66-3 12 4 20 14 3 27-47 13-78-13-106-18-19-49-29-62-53-10-18-21-12-43-10-48 5-85-5-120 15-30 16-42 40-50 68-12-24-34-55-54-49-29 8 7 56-8 86-8 17-20 20-31 17-9-2 7 16 28 7 11-5 14-11 17-17 1 18-3 35-17 45-14 10 6 9 20-7 17-20 17-41 19-62 8 18 8 38 8 65Z"/>
+            <g class="bow"><path d="M80 116C83 81 88 63 103 62c15-3 26 46 27 58 0 12-18 8-38 5 12 28 7 37 0 36-10-4-21-19-30-26-12-4-24-10-22-22 2-14 18-10 40 3Z"/></g>
+            <g class="eyes"><path class="face" d="M125 259q38-20 77-12m47-5q36-20 71-12"/><g class="pupils"><path class="hair" d="M169 249h27c1 23-30 26-27 0m119-17h29c3 23-31 28-29-1"/></g></g>
+            <path class="face" d="M224 248l1 68q1 13-5 15"/>
+            <path class="mouth face" d="M175 363c11 28 32-3 63-4 31-3 45 24 55 1"/>
+            <path class="face chin" d="M191 489c21 29 49 9 90 10"/>
+            <path class="cheek" d="M139 330l-5 11m15-12-4 12m160-25-5 11m15-13-5 11"/>
+          </g>
+        </svg>
+        <span class="character-hint">戳我一下，灵感 +1 ↗</span>
+        <span class="character-message" aria-live="polite"></span>
+      </button>
+      <div class="vertical-note">AIGC · VISUAL · EXPLORATION</div>
+      <div class="hero-bottom">
+        <div class="portfolio-type">PoRtFOLiO<span>!</span><a href="#works" aria-label="向下浏览">↘</a></div>
+        <div class="hero-baseline"><strong>2026</strong><span>产出 / 想法 / 蜕变</span><span class="scroll-note">SCROLL TO EXPLORE ↓</span><span>保持好奇，持续生长。</span></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div><span>MAKE SOMETHING</span><b>✳</b><span>保持好奇</span><b>↗</b><span>TRY. PLAY. GROW.</span><b>✳</b><span>让想象发生</span><b>↗</b><span>MAKE SOMETHING</span><b>✳</b><span>保持好奇</span><b>↗</b><span>TRY. PLAY. GROW.</span><b>✳</b><span>让想象发生</span><b>↗</b></div></div>
+
+    <section class="works section-shell" id="works" aria-labelledby="works-title">
+      <div class="section-eyebrow"><span>CHAPTER 01 / SELECTED WORKS</span><span>从想象，到看得见。</span></div>
+      <div class="section-heading"><h2 id="works-title">产出<span class="heading-star">✳</span></h2><div class="heading-aside"><span class="handwriting">made of possibilities.</span><p>一些练习，一些实验，一些认真完成的作品。<br>点击封面，进入我的 AIGC 创作现场。</p></div></div>
+      <div class="works-toolbar"><div class="filters" role="group" aria-label="作品分类"><button class="filter active" data-filter="all" aria-pressed="true">全部作品 <sup>21</sup></button><button class="filter" data-filter="camp" aria-pressed="false">训练营 AIGC <sup>01</sup></button><button class="filter" data-filter="product" aria-pressed="false">产品 AIGC <sup>20</sup></button></div><span class="works-count" aria-live="polite">21 件创作 / 持续更新中</span></div>
+      <div class="project-grid" id="project-grid"></div>
+      <div class="more-row"><span>EVERY EXPERIMENT COUNTS.</span><button class="load-more" id="load-more">再翻几页 <span>↓</span></button><span id="visible-count">06 / 21</span></div>
+      <noscript><p>请开启 JavaScript 浏览作品筛选。你也可以直接观看：<a href="assets/film-1.mp4">训练营短片</a> / <a href="assets/film-18.mp4">仕女失踪记</a>。</p></noscript>
+    </section>
+
+    <section class="ideas section-shell" id="ideas" aria-labelledby="ideas-title">
+      <div class="section-eyebrow"><span>CHAPTER 02 / NOTES TO SELF</span><span>给还没成形的想法，留个位置。</span></div>
+      <div class="section-heading"><h2 id="ideas-title">想法<span class="notes-scribble">& 心得</span></h2><div class="idea-stamp" aria-hidden="true">WORK<br>IN<br>PROGRESS ↗</div></div>
+      <div class="notes-layout"><div class="notes-intro"><span class="big-asterisk" aria-hidden="true">✳</span><p>作品之外，<br>还有一些<span>正在发芽</span>的念头。</p><small>写作提纲已就位，个人心得待补充。</small></div><div class="notes-list">
+        <details class="note"><summary><span class="note-number">01</span><span class="note-title">灵感不是等来的，是试出来的。<small>关于开始 / 灵感札记</small></span><span class="note-toggle">+</span></summary><div class="note-body"><span class="draft-label">写作提纲 · 待补充</span><p>记录一次从模糊念头到具体画面的尝试：最初的灵感是什么？第一次生成与想象有什么差距？哪个调整让画面开始成立？</p><p class="note-prompt">可以放入：灵感来源、初版画面，以及一次关键修改。</p></div></details>
+        <details class="note"><summary><span class="note-number">02</span><span class="note-title">从「生成一张图」到「讲好一个故事」。<small>关于叙事 / 训练营心得</small></span><span class="note-toggle">+</span></summary><div class="note-body"><span class="draft-label">写作提纲 · 待补充</span><p>回看训练营短片，把角色、分镜和节奏之间的选择写下来。哪些镜头被保留，哪些被放弃？人物的一致性是如何处理的？</p><p class="note-prompt">可以放入：分镜对比、工作流截图，以及最终取舍。</p><button class="text-link" id="open-workflow" type="button">查看现有工作流 ↗</button></div></details>
+        <details class="note"><summary><span class="note-number">03</span><span class="note-title">工具在变，表达是自己的。<small>关于创作 / 阶段复盘</small></span><span class="note-toggle">+</span></summary><div class="note-body"><span class="draft-label">写作提纲 · 待补充</span><p>选择一件最能代表当前状态的作品，记录它为什么重要。相比第一次尝试，现在更在意什么？下一次想挑战什么？</p><p class="note-prompt">可以放入：前后作品对照、最有用的经验，以及下一步计划。</p></div></details>
+      </div></div>
+    </section>
+
+    <section class="growth section-shell" id="growth" aria-labelledby="growth-title">
+      <div class="section-eyebrow"><span>CHAPTER 03 / BECOMING</span><span>未完待续，也是一个好状态。</span></div>
+      <div class="section-heading"><h2 id="growth-title">蜕变<span class="growth-arrow" aria-hidden="true">↗</span></h2><p class="growth-lead">把每一次尝试，<br>连成自己的形状。</p></div>
+      <div class="journey"><div class="journey-tabs" role="tablist" aria-label="成长章节"><button role="tab" id="stage-tab-0" aria-selected="true" aria-controls="stage-panel" data-stage="0" class="active"><span>01 / THE SPARK</span><strong>好奇，出发。</strong><i>↗</i></button><button role="tab" id="stage-tab-1" aria-selected="false" aria-controls="stage-panel" data-stage="1" tabindex="-1"><span>02 / THE PRACTICE</span><strong>动手，试错。</strong><i>↗</i></button><button role="tab" id="stage-tab-2" aria-selected="false" aria-controls="stage-panel" data-stage="2" tabindex="-1"><span>03 / THE NEXT</span><strong>生长，继续。</strong><i>↗</i></button></div><div class="stage-panel" id="stage-panel" role="tabpanel" tabindex="0" aria-labelledby="stage-tab-0"><div class="stage-art" aria-hidden="true"><svg viewBox="0 0 280 260"><path class="sprout-stem" d="M144 235c-12-61-7-103 3-148"/><path class="sprout-leaf" d="M140 180C79 184 43 148 52 114c55-2 86 26 88 66Z"/><path class="sprout-leaf second" d="M140 149c56-1 86-34 80-68-46-1-78 26-80 68Z"/><g class="sprout-flower"><path d="M146 96C90 75 91 39 111 33c15-6 26 9 33 23 2-33 25-42 38-27 11 13-1 29-16 39 37-2 47 23 30 37-16 12-37-6-42-15Z"/><circle cx="151" cy="77" r="12"/></g><path class="sprout-ground" d="M82 240q57-20 115 0"/></svg></div><div class="stage-copy"><span class="stage-kicker" id="stage-kicker">从一个「如果」开始</span><h3 id="stage-title">让好奇心先走一步。</h3><p id="stage-description">这里将记录第一次接触 AIGC 的契机，以及最初想用它完成的创作。</p><span class="stage-status">成长记录 · 待补充</span></div></div></div>
+      <p class="growth-footnote">没有一夜之间的蜕变，只有一次又一次的开始。<span>TO BE CONTINUED…</span></p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><span>THANK YOU FOR WANDERING THROUGH.</span><a href="#home">回到开头 ↑</a></div><div class="footer-big">STILL<span>BeCOMiNG.</span><i>✳</i></div><div class="footer-bottom"><span>© 2026 · AIGC 个人作品集</span><span>产出 / 想法 / 蜕变</span><span>保持好奇。下次见 ↗</span></div></footer>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><span id="dialog-category">SELECTED WORK</span><button class="dialog-close" aria-label="关闭作品">关闭 <span>×</span></button></div><div class="dialog-media" id="dialog-media"></div><div class="dialog-info"><div><p id="dialog-index" class="dialog-index"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p></div><a id="dialog-download" class="text-link" href="assets/film-1.mp4" target="_blank" rel="noopener">单独打开 ↗</a></div><div class="dialog-bottom"><button id="previous-project" aria-label="上一个作品">← 上一个</button><span id="dialog-position"></span><button id="next-project" aria-label="下一个作品">下一个 →</button></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

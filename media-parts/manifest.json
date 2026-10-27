@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "output": "dist/assets/film-18.mp4",
+      "bytes": 113025936,
+      "sha256": "f0e47a55bdf8a060bc97edb17228526069288ee66dd7ce8dc626cc0dd180d4bd",
+      "parts": [
+        {
+          "name": "film-18.part-00",
+          "sha256": "b67a14bfb9a9a30021e469cc4aefc452ff7dd3bdac7599c3ed576dc46ad7eb7f"
+        },
+        {
+          "name": "film-18.part-01",
+          "sha256": "ae3f1571332b01676f22bd32205e9e28c56a4da04fa054272c35433a1913e86e"
+        },
+        {
+          "name": "film-18.part-02",
+          "sha256": "0b7f8ceed54bfba4e818897c67faa8de9734c2eec284d2b9b6852da7aaa048d5"
+        },
+        {
+          "name": "film-18.part-03",
+          "sha256": "38820445c84ad7200c96662a30e22502bfb27efc6c4ea33e4cda3c5a1a582a8c"
+        },
+        {
+          "name": "film-18.part-04",
+          "sha256": "49409484fff676f606914be4edbf3d5fa7de2198920851265e5d4e864d78f843"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.DS_Store
+dist/assets/film-18.mp4
+dist/assets/posters/
+dist/assets/*.web.mp4
+*.log
+.openai/local/
+.deploy/
